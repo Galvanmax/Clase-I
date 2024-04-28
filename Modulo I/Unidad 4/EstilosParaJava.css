@@ -1,0 +1,16 @@
+.contenedor-Ejercicios {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: lightskyblue;
+}
+
+.Contenedor-Ejercicios {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: lightgreen;
+    text-align: center;
+}

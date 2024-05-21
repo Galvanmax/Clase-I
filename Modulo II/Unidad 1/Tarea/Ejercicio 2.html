@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <style>
+        textarea {
+            width: 100%;
+            height: 100px;
+        }
+
+        .counter {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <textarea id="textArea"></textarea>
+    <div id="charCount" class="counter">Caracteres: 0</div>
+
+    <script>
+        document.getElementById('textArea').addEventListener('input', function () {
+            const textLength = this.value.length;
+            document.getElementById('charCount').innerText = 'Caracteres: ' + textLength;
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+
+h1, h2 {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.novedades h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.hero {
+    background-image: url('https://media.istockphoto.com/id/913717930/id/vektor/latar-belakang-dengan-siluet-sushi-dan-gulungan-yang-digambar-tangan.jpg?s=170667a&w=0&k=20&c=_OuLs_hEVxpSrgUILaVhOgA3kz6pHYDVR-Ok3kH41Tw=');
+    background-position: center;
+    background-repeat: repeat; 
+    height: 100vh;
+}
+
+
+.novedades .card {
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.novedades .card:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+
+.novedades {
+    background-color: #b8f2e6;
+    padding: 80px 0;
+}
+
+.card {
+    background-color: #82d698;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}

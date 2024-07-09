@@ -1,0 +1,125 @@
+/* Estilos generales */
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+h2 {
+    font-family: 'Olv', sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar */
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #FFD700; /* Dorado */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #FFD700; /* Dorado */
+}
+
+/* Estilos del hero section */
+.hero {
+    background-image: url('https://media.istockphoto.com/id/913717930/id/vektor/latar-belakang-dengan-siluet-sushi-dan-gulungan-yang-digambar-tangan.jpg?s=170667a&w=0&k=20&c=_OuLs_hEVxpSrgUILaVhOgA3kz6pHYDVR-Ok3kH41Tw=');
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+}
+
+.hero p {
+    font-size: 1.7rem;
+    color: whitesmoke;
+}
+
+/* Carrusel de testimonios */
+.carousel-item {
+    transition: transform 2s ease, opacity 1s ease;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+    display: block;
+}
+
+.testimonial {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.testimonial-text {
+    color: white;
+    font-size: 1.0rem;
+}
+
+.testimonial-stars {
+    color: yellow;
+    font-size: 1.5rem;
+}
+
+/* Estilos de la sección de novedades */
+.novedades {
+    background-color: #810a68;
+    padding: 80px 0;
+}
+
+.novedades .card {
+    background-color: #969dac;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.novedades .card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Conócenos */
+.conocenos {
+    background-color: #FFA500; /* Naranja */
+    color: #000;
+}
+
+/* contactanos */
+.contactanos {
+    background-color: #FFADAD; /* Salmón claro */
+    color: #000;
+}
+
+/* Ubicación */
+.ubicacion {
+    background-color: #FF6347; /* Tomate */
+    color: #000;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushi Burgers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="x2.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sushi Burgers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#testimonialCarousel">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#novedades">Novedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactanos">Contactanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ubicacion">Ubicación</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero d-flex align-items-center">
+        <div class="container text-center">
+            <h1 class="display-4">Bienvenidos a Sushi Burgers</h1>
+            <p class="lead">Las mejores hamburguesas de sushi</p>
+            <!-- Carrusel de testimonios -->
+            <div id="testimonialCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonial">
+                            <p class="testimonial-text">"¡Increíble experiencia culinaria! Recomiendo las Sushi
+                                Burgers."</p>
+                            <div class="testimonial-stars">
+                                ★★★★★
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial">
+                            <p class="testimonial-text">"El mejor lugar para combinar sushi y hamburguesas. ¡Volveré!"
+                            </p>
+                            <div class="testimonial-stars">
+                                ★★★★★
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de novedades -->
+    <section id="novedades" class="novedades py-5">
+        <div class="container">
+            <h2 class="mb-4">Nuevas experiencias</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="https://manhattan.fra1.digitaloceanspaces.com/wp-content/uploads/2016/08/20054519/sushi-burger-00.jpg"
+                            class="card-img-top" alt="Novedad 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Experiencia inspirada en Nagasaki</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="https://th.bing.com/th/id/OIP.WQ06KEf1NqRPfxSDxz-lZgHaE7?pid=ImgDet&w=185&h=122&c=7"
+                            class="card-img-top" alt="Novedad 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Experiencia inspirada en Buenos Aires</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="https://th.bing.com/th/id/OIP.5ylBoYecgvrw8cFyCRg3ewHaHc?pid=ImgDet&w=185&h=186&c=7"
+                            class="card-img-top" alt="Novedad 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Experiencia inspirada en Sydney</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de conócenos -->
+    <section id="conocenos" class="conocenos py-5">
+        <div class="container">
+            <h2 class="mb-4">Conócenos</h2>
+            <p>Somos un equipo apasionado por fusionar lo mejor del sushi y las hamburguesas, creando experiencias
+                culinarias únicas. Conócenos más a través de nuestros fundadores.</p>
+            <div class="row mt-4">
+                <!-- Card 1 -->
+                <div class="col-lg-6">
+                    <div class="card">
+                        <img src="https://th.bing.com/th/id/OIP.aVEzVyOOOpDDXlE2HAS0LAHaIF?w=165&h=180&c=7&r=0&o=5&pid=1.7" class="card-img-top mx-auto" alt="Foto del dueño 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Mickey</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-lg-6">
+                    <div class="card">
+                        <img src="data:image/jpeg;base64,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" class="card-img-top mx-auto" alt="Foto del dueño 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Minnie</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de contactanos -->
+    <section id="contactanos" class="contactanos py-5">
+        <div class="container">
+            <h2 class="mb-4">Contactanos</h2>
+            <form action="#" method="post">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="asunto" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="asunto" name="asunto" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Sección de ubicación -->
+    <section id="ubicacion" class="ubicacion py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Columna izquierda para información de contacto -->
+                <div class="col-lg-6">
+                    <h2 class="mb-4">Ubicación</h2>
+                    <p><strong>Dirección:</strong> Olavarría 3268, Mar del Plata, Provincia de Buenos Aires, Argentina
+                    </p>
+                    <p><strong>Horarios:</strong>
+                    <p>Miércoles y Jueves: 18:00 a 22:30</p>
+                    <p>Viernes a Domingo: 18:00 a 00:30</p>
+                    </p>
+                    <p><strong>Teléfono:</strong> +54 9 11 1234 5678</p>
+                </div>
+                <!-- Columna derecha para el mapa de Google Maps -->
+                <div class="col-lg-6">
+                    <!-- código de Google Maps -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1571.6221064554652!2d-57.54615646140131!3d-38.0180857929813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dc2f7f75386f%3A0xf9e4c7ee3f7f8891!2sOlavarr%C3%ADa%203268%2C%20B7602CYJ%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses-419!2sau!4v1720488686210!5m2!1ses-419!2sau"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4 bg-dark text-white">
+        <p>&copy; 2024 Sushi Burgers. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        var testimonialCarousel = document.querySelector('#testimonialCarousel');
+        var carousel = new bootstrap.Carousel(testimonialCarousel, {
+            interval: 3000
+        });
+    </script>
+</body>
+
+</html>
